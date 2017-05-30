@@ -26,7 +26,7 @@
 
 from setuptools import setup, find_packages
 
-with open('README') as stream:
+with open('README.rst') as stream:
     long_desc = stream.read()
 
 requires = ['Sphinx>=1.0b2']
