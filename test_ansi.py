@@ -1,6 +1,8 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 
+import pytest
+
 from docutils import nodes
 from mock import Mock
 
@@ -11,17 +13,20 @@ RAWSOURCE = '''\
 \x1b[1mfoo\x1b[33;1mbar\x1b[1;34mhello\x1b[0mworld\x1b[1m'''
 
 
-def pytest_funcarg__paragraph(request):
+@pytest.fixture()
+def paragraph(request):
     paragraph = nodes.paragraph()
     paragraph.append(ansi.ansi_literal_block(RAWSOURCE, RAWSOURCE))
     return paragraph
 
 
-def pytest_funcarg__app(request):
+@pytest.fixture()
+def app(request):
     return Mock()
 
 
-def pytest_funcarg__parser(request):
+@pytest.fixture()
+def parser(request):
     return ansi.ANSIColorParser()
 
 
