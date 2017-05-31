@@ -45,8 +45,7 @@ intersphinx_mapping = {'python': ('http://docs.python.org/', None),
                        'sphinx': ('http://sphinx.pocoo.org/', None)}
 
 issuetracker = 'bitbucket'
-issuetracker_user = 'birkenfeld'
-issuetracker_project = 'sphinx-contrib'
+issuetracker_project = 'birkenfeld/sphinx-contrib'
 
 
 def setup(app):
