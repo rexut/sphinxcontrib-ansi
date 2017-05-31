@@ -15,11 +15,11 @@ This extension can be installed from the Python Package Index::
 
    pip install sphinxcontrib-ansi
 
-Alternatively, you can clone the sphinx-contrib_ repository from BitBucket,
+Alternatively, you can clone the sphinxcontrib-ansi_ repository from BitBucket,
 and install the extension directly from the repository::
 
-   hg clone http://bitbucket.org/birkenfeld/sphinx-contrib
-   cd sphinx-contrib/ansi
+   git clone https://github.com/lipro/sphinxcontrib-ansi.git
+   cd sphinxcontrib-ansi
    python setup.py install
 
 
@@ -29,6 +29,6 @@ Usage
 Please refer to the documentation_ for further information.
 
 
-.. _`Sphinx`: http://sphinx.pocoo.org/latest
-.. _`sphinx-contrib`: http://bitbucket.org/birkenfeld/sphinx-contrib
+.. _`Sphinx`: http://www.sphinx-doc.org/latest
+.. _`sphinxcontrib-ansi`: https://github.com/lipro/sphinxcontrib-ansi
 .. _documentation: http://packages.python.org/sphinxcontrib-ansi

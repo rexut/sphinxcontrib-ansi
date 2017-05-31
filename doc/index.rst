@@ -23,11 +23,11 @@ This extension can be installed from the Python Package Index::
 
    pip install sphinxcontrib-ansi
 
-Alternatively, you can clone the sphinx-contrib_ repository from BitBucket,
+Alternatively, you can clone the sphinxcontrib-ansi_ repository from BitBucket,
 and install the extension directly from the repository::
 
-   hg clone https://bitbucket.org/birkenfeld/sphinx-contrib
-   cd sphinx-contrib/ansi
+   git clone https://github.com/lipro/sphinxcontrib-ansi.git
+   cd sphinxcontrib-ansi
    python setup.py install
 
 
@@ -95,7 +95,7 @@ Contribution
 ------------
 
 Please contact the author or create an issue in the `issue tracker`_ of the
-sphinx-contrib_ repository, if you have found any bugs or miss some
+sphinxcontrib-ansi_ repository, if you have found any bugs or miss some
 functionality (e.g. support for more attributes).  Patches are welcome!
 
 
@@ -106,8 +106,8 @@ functionality (e.g. support for more attributes).  Patches are welcome!
    changes.rst
 
 
-.. _`Sphinx`: http://sphinx.pocoo.org/
-.. _`sphinx-contrib`: https://bitbucket.org/birkenfeld/sphinx-contrib
-.. _`issue tracker`: https://bitbucket.org/birkenfeld/sphinx-contrib/issues
-.. _`black-on-white.css`: https://bitbucket.org/birkenfeld/sphinx-contrib/src/tip/ansi/sphinxcontrib/black-on-white.css
-.. _LICENSE: https://bitbucket.org/birkenfeld/sphinx-contrib/src/tip/LICENSE
+.. _`Sphinx`: http://www.sphinx-doc.org/
+.. _`sphinxcontrib-ansi`: https://github.com/lipro/sphinxcontrib-ansi
+.. _`issue tracker`: https://github.com/lipro/sphinxcontrib-ansi/issues
+.. _`black-on-white.css`: https://github.com/lipro/sphinxcontrib-ansi/blob/master/sphinxcontrib/black-on-white.css
+.. _LICENSE: https://github.com/lipro/sphinxcontrib-ansi/blob/master/LICENSE

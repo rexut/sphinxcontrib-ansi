@@ -42,10 +42,10 @@ html_theme = 'default'
 html_static_path = []
 
 intersphinx_mapping = {'python': ('http://docs.python.org/', None),
-                       'sphinx': ('http://sphinx.pocoo.org/', None)}
+                       'sphinx': ('http://www.sphinx-doc.org/', None)}
 
-issuetracker = 'bitbucket'
-issuetracker_project = 'birkenfeld/sphinx-contrib'
+issuetracker = 'github'
+issuetracker_project = 'lipro/sphinxcontrib-ansi'
 
 
 def setup(app):

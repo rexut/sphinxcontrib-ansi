@@ -34,12 +34,14 @@ requires = ['Sphinx>=1.0b2']
 setup(
     name='sphinxcontrib-ansi',
     version='0.6',
-    url='http://bitbucket.org/birkenfeld/sphinx-contrib',
-    download_url='http://pypi.python.org/pypi/ansi',
+    url='https://github.com/lipro/sphinxcontrib-ansi',
+    download_url='http://pypi.python.org/pypi/sphinxcontrib-ansi',
     license='BSD',
     author='Sebastian Wiesner',
     author_email='lunaryorn@googlemail.com',
-    description='Sphinx extension ansi',
+    maintainer='Stephan Linz',
+    maintainer_email='linz@li-pro.net',
+    description='Sphinx extension to filter ANSI sequences',
     long_description=long_desc,
     zip_safe=False,
     classifiers=[
